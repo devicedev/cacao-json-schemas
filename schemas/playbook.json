@@ -124,57 +124,41 @@
   "unevaluatedProperties": false,
   "$defs": {
     "playbook-type-ov": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "enum": [
-            "attack",
-            "detection",
-            "engagement",
-            "investigation",
-            "mitigation",
-            "notification",
-            "prevention",
-            "remediation"
-          ]
-        }
+      "enum": [
+        "attack",
+        "detection",
+        "engagement",
+        "investigation",
+        "mitigation",
+        "notification",
+        "prevention",
+        "remediation"
       ]
     },
     "playbook-activity-type-ov": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "enum": [
-            "compose-content",
-            "deliver-content",
-            "identify-audience",
-            "identify-channel",
-            "scan-system",
-            "match-indicator",
-            "analyze-collected-data",
-            "identify-indicators",
-            "scan-vulnerabilities",
-            "configure-systems",
-            "restrict-access",
-            "disconnect-system",
-            "eliminate-risk",
-            "revert-system",
-            "restore-data",
-            "restore-capabilities",
-            "map-network",
-            "identify-steps",
-            "step-sequence",
-            "prepare-engagement",
-            "execute-operation",
-            "analyze-engagement-results"
-          ]
-        }
+      "enum": [
+        "compose-content",
+        "deliver-content",
+        "identify-audience",
+        "identify-channel",
+        "scan-system",
+        "match-indicator",
+        "analyze-collected-data",
+        "identify-indicators",
+        "scan-vulnerabilities",
+        "configure-systems",
+        "restrict-access",
+        "disconnect-system",
+        "eliminate-risk",
+        "revert-system",
+        "restore-data",
+        "restore-capabilities",
+        "map-network",
+        "identify-steps",
+        "step-sequence",
+        "prepare-engagement",
+        "execute-operation",
+        "analyze-engagement-results"
       ]
     },
     "industry-sector-ov": {
