@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/agent-target/net-address.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/agent-target/net-address.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "net-address",
   "description": "This type defines a network address object and is used for commands that need to be processed or executed by a device at a network address. In addition to the inherited properties, this section defines three additional specific properties that are valid for this type.",
@@ -13,9 +13,7 @@
         "type": {
           "type": "string",
           "description": "The value of this property MUST be 'net-address'.",
-          "enum": [
-            "net-address"
-          ]
+          "enum": ["net-address"]
         },
         "address": {
           "type": "object",
@@ -52,7 +50,7 @@
             "^vlan$": {
               "type": "array",
               "items": {
-                "type":"number",
+                "type": "number",
                 "minimum": 0,
                 "maximum": 4095
               }
@@ -77,13 +75,11 @@
             "$ref": "#/$defs/security-category-type-ov"
           },
           "minItems": 1
-        }       
+        }
       }
     }
   ],
-  "required": [
-    "address"
-  ],
+  "required": ["address"],
   "unevaluatedProperties": false,
   "$defs": {
     "security-category-type-ov": {

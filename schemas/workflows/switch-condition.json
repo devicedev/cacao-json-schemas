@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/workflows/switch-condition.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/workflows/switch-condition.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "switch-condition",
   "description": "The switch condition step workflow step defines the 'switch' condition logic that can be used within the workflow of the playbook. In addition to the inherited properties, this section defines the following additional properties that are valid for this type.",

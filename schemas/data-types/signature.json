@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/data-types/signature.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/data-types/signature.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "signature",
   "description": "The 'signature' data type captures the actual digital signature and meta-data about the signature and uses the JSON object type [RFC8259] for serialization. See section Appendix A for a detailed example. \n\n* One of the following properties MUST be populated, 'public_key' (preferred), 'public_cert_chain', 'cert_url', or 'thumbprint'.",
@@ -8,9 +8,7 @@
     "type": {
       "type": "string",
       "description": "The value of this property MUST be 'jss'.",
-      "enum": [
-        "jss"
-      ]
+      "enum": ["jss"]
     },
     "id": {
       "$ref": "identifier.json",

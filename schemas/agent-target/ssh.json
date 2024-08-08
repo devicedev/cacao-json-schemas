@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/agent-target/ssh.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/agent-target/ssh.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ssh",
   "description": "This type defines a SSH CLI object and is used for commands that need to be processed or executed by an SSH CLI. In addition to the inherited properties, this section defines the following additional properties that are valid for this type.",
@@ -13,9 +13,7 @@
         "type": {
           "type": "string",
           "description": "The value of this property MUST be 'ssh'.",
-          "enum": [
-            "ssh"
-          ]
+          "enum": ["ssh"]
         },
         "address": {
           "type": "object",
@@ -86,9 +84,7 @@
       }
     }
   ],
-  "required": [
-    "address"
-  ],
+  "required": ["address"],
   "unevaluatedProperties": false,
   "$defs": {
     "security-category-type-ov": {

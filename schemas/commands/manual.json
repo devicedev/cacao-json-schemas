@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/commands/manual.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/commands/manual.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "manual",
   "description": "The manual command represents a command that is intended to be processed by a human or a system that acts on behalf of a human. In addition to the inherited properties, this section defines the following additional properties that are valid for this type. Either the 'command' property or the 'command_b64' property MUST be present.",
@@ -13,9 +13,7 @@
         "type": {
           "type": "string",
           "description": "The value of this property MUST be 'manual'.",
-          "enum": [
-            "manual"
-          ]
+          "enum": ["manual"]
         },
         "command": {
           "type": "string",

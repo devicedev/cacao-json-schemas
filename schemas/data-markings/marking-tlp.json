@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/data-markings/marking-tlp.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/data-markings/marking-tlp.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "marking-tlp",
   "description": "The TLP marking object defines the representation of a FIRST TLP V2 marking statement.",
@@ -13,9 +13,7 @@
         "type": {
           "type": "string",
           "description": "The value of this property MUST be 'marking-tlp'.",
-          "enum": [
-            "marking-tlp"
-          ]
+          "enum": ["marking-tlp"]
         },
         "tlpv2_level": {
           "type": "string",
@@ -31,8 +29,6 @@
       }
     }
   ],
-  "required": [
-    "tlpv2_level"
-  ],
+  "required": ["tlpv2_level"],
   "unevaluatedProperties": false
 }

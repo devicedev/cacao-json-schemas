@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/oasis-open/cacao-json-schemas/main/schemas/workflows/playbook-action.json",
+  "$id": "https://raw.githubusercontent.com/devicedev/cacao-json-schemas/main/schemas/workflows/playbook-action.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "playbook-action",
   "description": "The playbook action step workflow step executes a referenced playbook using the agents and targets defined in the referenced playbook. In addition to the inherited properties, this section defines the following additional properties that are valid for this type.",
@@ -13,9 +13,7 @@
         "type": {
           "type": "string",
           "description": "The value of this property MUST be 'playbook-action'.",
-          "enum": [
-            "playbook-action"
-          ]
+          "enum": ["playbook-action"]
         },
         "playbook_id": {
           "$ref": "../data-types/identifier.json",
@@ -44,8 +42,6 @@
       }
     }
   ],
-  "required": [
-    "playbook_id"
-  ],
+  "required": ["playbook_id"],
   "unevaluatedProperties": false
 }
