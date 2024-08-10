@@ -30,7 +30,7 @@
       "description": "The ID of the next step to be processed if this step fails to complete successfully. \n\nThe value of this property MUST represent a CACAO workflow step object. \n\nIf omitted and a failure occurs, then the playbook's exception handler found in the workflow_exception property at the Playbook level will be invoked. \n\nIf this property is defined, then on_completion MUST NOT be defined. This property MUST NOT be used on the 'start' or 'end' steps."
     }
   },
-  "required": ["type", "name", "description"],
+  "required": ["type", "name"],
   "dependencies": {
     "on_completion": {
       "not": { "required": ["on_success", "on_failure"] }
