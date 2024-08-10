@@ -30,30 +30,22 @@
   "required": ["type"],
   "$defs": {
     "variable-type-ov": {
-      "anyOf": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string",
-          "enum": [
-            "bool",
-            "dictionary",
-            "float",
-            "hexstring",
-            "integer",
-            "ipv4-addr",
-            "ipv6-addr",
-            "long",
-            "mac-addr",
-            "hash",
-            "md5-hash",
-            "sha256-hash",
-            "string",
-            "uri",
-            "uuid"
-          ]
-        }
+      "enum": [
+        "bool",
+        "dictionary",
+        "float",
+        "hexstring",
+        "integer",
+        "ipv4-addr",
+        "ipv6-addr",
+        "long",
+        "mac-addr",
+        "hash",
+        "md5-hash",
+        "sha256-hash",
+        "string",
+        "uri",
+        "uuid"
       ]
     }
   }
