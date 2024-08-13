@@ -113,7 +113,6 @@
     "spec_version",
     "id",
     "name",
-    "created_by",
     "playbook_types",
     "playbook_activities",
     "created",
